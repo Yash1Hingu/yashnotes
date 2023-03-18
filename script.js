@@ -30,12 +30,12 @@ chapters.forEach((items)=>{
         popuptitle.innerHTML = items.innerHTML;
 
         console.log(window.location.pathname)
-        if(window.location.pathname === "/os.html") {
+        if(window.location.pathname === "/yashnotes/os.html") {
 
             documentiFrame.setAttribute("src",osfiles[items.id]);
             console.log("os");
 
-        } else if (window.location.pathname === "/cn.html") {
+        } else if (window.location.pathname === "/yashnotes/cn.html") {
             
             documentiFrame.setAttribute("src",cnfiles[items.id]);
             console.log("cn");
