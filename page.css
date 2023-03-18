@@ -1,0 +1,39 @@
+.listContainer{
+    margin: 20px 30px;
+}
+
+.listContainer ol li{
+    margin: 10px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+a{
+    color: black;
+}
+
+main .popup{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.933);
+    width: 100%;
+    height: 100vh;
+    display: none;
+    flex-direction: column;
+    color: #fff;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+main .popup #cancel{
+    align-self: flex-end;
+    margin: 10px;
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 800;
+    cursor: pointer;
+}
